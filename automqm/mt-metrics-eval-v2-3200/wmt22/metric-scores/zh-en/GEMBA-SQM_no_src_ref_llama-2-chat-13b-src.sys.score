@@ -1,0 +1,16 @@
+AISP-SJTU	63.72
+HuaweiTSC	62.43
+JDExploreAcademy	63.98
+Lan-Bridge	64.42
+LanguageX	63.965
+M2M100_1.2B-B4	61.915
+Online-A	63.17
+Online-B	63.98
+Online-G	64.155
+Online-W	62.85
+Online-Y	63.975
+bleu_bestmbr	63.505
+bleurt_bestmbr	64.48
+comet_bestmbr	65.555
+refA	64.01
+refB	63.11

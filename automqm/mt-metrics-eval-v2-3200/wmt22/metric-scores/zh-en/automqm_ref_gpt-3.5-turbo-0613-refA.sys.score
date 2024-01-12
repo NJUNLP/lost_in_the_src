@@ -1,0 +1,16 @@
+AISP-SJTU	-2.82
+HuaweiTSC	-3.205
+JDExploreAcademy	-2.65
+Lan-Bridge	-2.275
+LanguageX	-2.475
+M2M100_1.2B-B4	-6.815
+Online-A	-2.935
+Online-B	-2.31
+Online-G	-3.08
+Online-W	-4.23
+Online-Y	-3.355
+bleu_bestmbr	-3.17
+bleurt_bestmbr	-2.38
+comet_bestmbr	-2.295
+refA	-0.025
+refB	-3.66

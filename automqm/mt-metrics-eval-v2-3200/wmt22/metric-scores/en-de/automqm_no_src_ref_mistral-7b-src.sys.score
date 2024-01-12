@@ -1,0 +1,16 @@
+JDExploreAcademy	-10.005
+Lan-Bridge	-11.44
+M2M100_1.2B-B4	-10.635
+Online-A	-10.155
+Online-B	-10.765
+Online-G	-10.065
+Online-W	-11.235
+Online-Y	-11.31
+OpenNMT	-9.66
+PROMT	-11.165
+QUARTZ_TuneReranking	-10.12
+bleu_bestmbr	-10.765
+bleurt_bestmbr	-10.505
+comet_bestmbr	-10.215
+refA	-11.29
+refB	-10.81

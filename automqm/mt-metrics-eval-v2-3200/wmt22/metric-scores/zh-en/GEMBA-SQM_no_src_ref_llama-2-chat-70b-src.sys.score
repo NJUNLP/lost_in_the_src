@@ -1,0 +1,16 @@
+AISP-SJTU	79.45
+HuaweiTSC	77.65
+JDExploreAcademy	79.425
+Lan-Bridge	80.05
+LanguageX	80.025
+M2M100_1.2B-B4	76.475
+Online-A	78.0
+Online-B	78.76
+Online-G	80.325
+Online-W	77.6
+Online-Y	79.35
+bleu_bestmbr	78.35
+bleurt_bestmbr	80.275
+comet_bestmbr	81.8
+refA	81.675
+refB	80.35

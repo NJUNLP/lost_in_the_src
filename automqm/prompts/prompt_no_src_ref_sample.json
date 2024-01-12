@@ -1,0 +1,12 @@
+{
+    "_type": "few_shot",
+    "input_variables": ["tgt_lang", "translation"],
+    "prefix": "Identify the major and minor errors in this translation. Note that Major errors refer to actual translation or grammatical errors, and Minor errors refer to smaller imperfections, and purely subjective opinions about the translation.",
+    "example_prompt": {
+        "_type": "prompt",
+        "input_variables": ["tgt_lang", "translation", "error"],
+        "template": "{tgt_lang} translation: \"{translation}\"\nErrors: {error}"
+    },
+    "examples": [],
+    "suffix": "{tgt_lang} translation: \"{translation}\"\nErrors:"
+}

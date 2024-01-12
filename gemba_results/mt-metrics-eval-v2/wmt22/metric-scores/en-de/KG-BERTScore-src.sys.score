@@ -1,0 +1,17 @@
+bleurt_bestmbr	0.499301
+bleu_bestmbr	0.48432
+chrf_bestmbr	0.491046
+comet_bestmbr	0.509636
+JDExploreAcademy	0.479583
+Lan-Bridge	0.454551
+M2M100_1.2B-B4	0.445664
+Online-A	0.463456
+Online-B	0.479574
+Online-G	0.458677
+Online-W	0.485472
+Online-Y	0.478199
+OpenNMT	0.489783
+PROMT	0.456723
+QUARTZ_TuneReranking	0.484289
+refA	0.482208
+refB	0.476436

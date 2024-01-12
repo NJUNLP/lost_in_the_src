@@ -1,0 +1,17 @@
+bleu_bestmbr	0.557508
+chrf_bestmbr	0.561137
+comet_bestmbr	0.560348
+eTranslation	0.548837
+HuaweiTSC	0.557957
+JDExploreAcademy	0.558571
+Lan-Bridge	0.539788
+M2M100_1.2B-B4	0.543134
+Online-A	0.557549
+Online-B	0.555259
+Online-G	0.563615
+Online-W	0.556621
+Online-Y	0.557676
+PROMT	0.551184
+QUARTZ_TuneReranking	0.523101
+SRPOL	0.550176
+refA	0.548975

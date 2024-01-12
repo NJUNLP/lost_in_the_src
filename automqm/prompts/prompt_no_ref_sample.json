@@ -1,0 +1,12 @@
+{
+    "_type": "few_shot",
+    "input_variables": ["src_lang", "source", "tgt_lang", "translation"],
+    "prefix": "Based on the given source, identify the major and minor errors in this translation. Note that Major errors refer to actual translation or grammatical errors, and Minor errors refer to smaller imperfections, and purely subjective opinions about the translation.",
+    "example_prompt": {
+        "_type": "prompt",
+        "input_variables": ["src_lang", "tgt_lang", "source", "translation", "error"],
+        "template": "{src_lang} source: \"{source}\"\n{tgt_lang} translation: \"{translation}\"\nErrors: {error}"
+    },
+    "examples": [],
+    "suffix": "{src_lang} source: \"{source}\"\n{tgt_lang} translation: \"{translation}\"\nErrors:"
+}

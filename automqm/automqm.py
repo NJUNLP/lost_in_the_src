@@ -13,8 +13,8 @@ from example_selector import (
     EditDistanceRetriever,
 )
 from langchain.chat_models import ChatOpenAI
-from langchain.prompts.chat import HumanMessagePromptTemplate, HumanMessage
-from langchain.prompts import ChatPromptTemplate, load_prompt
+from langchain_core.prompts.chat import HumanMessagePromptTemplate, HumanMessage
+from langchain_core.prompts import ChatPromptTemplate, load_prompt
 from llama2_model import Llama2Model
 
 LANG_CODEBOOK = {"zh": "Chinese", "en": "English", "de": "German"}
@@ -230,7 +230,7 @@ def main():
         prompt_tokens = pt["prompt_tokens"]
         completion_tokens = pt["completion_tokens"]
 
-    bz = 16
+    bz = 50
     messages = []
     for i, test_sample in enumerate(testset.itertuples(), start=1):
         if indices and test_sample.Index <= indices[-1]:

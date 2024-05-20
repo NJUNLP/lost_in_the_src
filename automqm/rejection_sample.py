@@ -2,12 +2,9 @@ import pandas as pd
 import numpy as np
 import sys
 
-# pd.set_option("max_colwidth", 400)
-# pd.set_option("display.max_columns", None)
-
 def main():
     times = int(sys.argv[1]) if len(sys.argv) > 1 else 1
-    data_path = "../mqm-processed/wmt21_mqm_zh-en.pkl"
+    data_path = "data/wmt21_mqm_zh-en.pkl"
     df = pd.read_pickle(data_path)
     # df["category"] = df["category"].apply(lambda c: [] if c[0] == "No-error" else c)
     df["category"] = df["category"].apply(lambda c: ["No-error"] if c == [] else c)
